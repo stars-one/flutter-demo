@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_demo/page/ButtonPage.dart';
 import 'package:flutter_demo/page/DialogPage.dart';
 import 'package:flutter_demo/page/LayoutPage.dart';
+import 'package:flutter_demo/page/TabPage.dart';
 import 'package:flutter_demo/page/TextPage.dart';
 import 'package:flutter_demo/utils/NavigatorUtil.dart';
+import 'package:flutter_demo/page/ListViewPage.dart';
 
 class Item extends StatelessWidget{
   int index;
@@ -30,7 +32,12 @@ class Item extends StatelessWidget{
         case 4:
           NavigatorUtil.push(context,LayoutPage());
           break;
-        case 5:break;
+        case 5:
+          NavigatorUtil.push(context,TabPage());
+          break;
+        case 6:
+          NavigatorUtil.push(context,ListViewPage());
+          break;
       }
     },);
   }

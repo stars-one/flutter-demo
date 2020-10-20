@@ -35,6 +35,8 @@ class MyApp extends StatelessWidget {
             Item("文本demo", 2),
             Item("按钮demo", 3),
             Item("布局demo", 4),
+            Item("tabLayout的demo", 5),
+            Item("listView的demo", 6),
         ],),
       )),
     );
