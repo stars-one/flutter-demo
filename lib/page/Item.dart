@@ -6,6 +6,7 @@ import 'package:flutter_demo/page/DialogPage.dart';
 import 'package:flutter_demo/page/LayoutPage.dart';
 import 'package:flutter_demo/page/TabPage.dart';
 import 'package:flutter_demo/page/TextPage.dart';
+import 'package:flutter_demo/page/WebviewPage.dart';
 import 'package:flutter_demo/utils/NavigatorUtil.dart';
 import 'package:flutter_demo/page/ListViewPage.dart';
 
@@ -37,6 +38,9 @@ class Item extends StatelessWidget{
           break;
         case 6:
           NavigatorUtil.push(context,ListViewPage());
+          break;
+        case 7:
+          NavigatorUtil.push(context,WebViewPage());
           break;
       }
     },);
