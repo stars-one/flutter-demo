@@ -31,6 +31,8 @@ dependencies:
   cupertino_icons: ^0.1.3
   # 星级 https://pub.dev/packages/flutter_simple_rating_bar/install
   flutter_simple_rating_bar: ^0.0.3
+  #网络请求 https://github.com/flutterchina/dio/blob/master/README-ZH.md
+  dio: ^3.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
