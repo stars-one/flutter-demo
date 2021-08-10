@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_demo/page/ButtonPage.dart';
 import 'package:flutter_demo/page/CheckBoxPage.dart';
 import 'package:flutter_demo/page/DialogPage.dart';
+import 'package:flutter_demo/page/DioTestPage.dart';
 import 'package:flutter_demo/page/LayoutPage.dart';
 import 'package:flutter_demo/page/TabPage.dart';
 import 'package:flutter_demo/page/TextPage.dart';
@@ -45,6 +46,9 @@ class Item extends StatelessWidget {
             break;
           case 8:
             NavigatorUtil.push(context, CheckBoxPage());
+            break;
+          case 9:
+            NavigatorUtil.push(context, DioTestPage());
             break;
         }
       },

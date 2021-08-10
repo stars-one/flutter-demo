@@ -39,6 +39,7 @@ class MyApp extends StatelessWidget {
             Item("listView的demo", 6),
             Item("webview", 7),
             Item("checkBox的demo", 8),
+            Item("Dio网络框架Demo", 9),
         ],),
       )),
     );
