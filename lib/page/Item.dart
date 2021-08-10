@@ -6,6 +6,7 @@ import 'package:flutter_demo/page/DioTestPage.dart';
 import 'package:flutter_demo/page/LayoutPage.dart';
 import 'package:flutter_demo/page/TabPage.dart';
 import 'package:flutter_demo/page/TextPage.dart';
+import 'package:flutter_demo/page/UserInfoPage.dart';
 import 'package:flutter_demo/page/WebviewPage.dart';
 import 'package:flutter_demo/utils/NavigatorUtil.dart';
 import 'package:flutter_demo/page/ListViewPage.dart';
@@ -49,6 +50,9 @@ class Item extends StatelessWidget {
             break;
           case 9:
             NavigatorUtil.push(context, DioTestPage());
+            break;
+          case 10:
+            NavigatorUtil.push(context, UserInfoPage());
             break;
         }
       },
